@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/laranja">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/fragment_exercicio"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="2"
+            android:id="@+id/txtNomeMusculo"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Abdominais"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            />
+
+        <Button
+            android:id="@+id/btnVoltarTreino"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:text="@string/Voltar"
+            android:drawableLeft="@drawable/arrow_left_bold_white"
+            android:textColor="@android:color/white"
+            android:layout_marginLeft="80dp"
+            android:layout_gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:background="@drawable/btn_azul_material"/>
+
+        <Button
+            android:id="@+id/btnSalvarTreino"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:text="@string/Salvar"
+            android:textColor="@android:color/white"
+            android:layout_marginLeft="80dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:background="@drawable/btn_azul_material"/>
+
+    </LinearLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/listCardView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:descendantFocusability="afterDescendants"
+
+        />
+
+</LinearLayout>

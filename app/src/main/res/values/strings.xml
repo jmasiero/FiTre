@@ -1,0 +1,129 @@
+<resources>
+    <string name="app_name">FiTre</string>
+
+    <string name="headerView"></string>
+    <string name="title_treino">Em Treinamento</string>
+    <string name="title_novo_treino">Novo Treino</string>
+    <string name="title_treinos">Treinos</string>
+    <string name="title_novo_aluno">Novo Aluno</string>
+    <string name="title_alunos">Alunos</string>
+    <string name="title_novo_personal">Novo Personal</string>
+    <string name="title_personais">Personais</string>
+    <string name="title_treino_base">Treino Base</string>
+    <string name="title_treino_progressivo">Treino Progressivo</string>
+    <string name="title_programa_de_treinamento">Programa de Treinamento</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="nome">Nome</string>
+    <string name="dtNascimento">Data de Nascimento</string>
+    <string name="cpf">CPF</string>
+    <string name="salvar">Salvar</string>
+    <string name="cref">CREF</string>
+    <string name="tipo_de_treino">Tipo de Treino</string>
+    <string name="peso_inicio">Peso Início</string>
+    <string name="peso_ideal">Peso Ideal</string>
+    <string name="data_inicio">Data Início</string>
+    <string name="data_fim">Data Fim</string>
+    <string name="objetivo">Objetivo</string>
+    <string name="proximo">Próximo</string>
+    <string name="observacao">Observação</string>
+    <string name="listar">Listar</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ExercicioMaquina">Exercício/Máquina</string>
+    <string name="Repeticoes">Repetições</string>
+    <string name="Cargas">Cargas</string>
+    <string name="Dias">Dias</string>
+    <string name="Biceps">Bíceps</string>
+    <string name="Triceps">Tríceps</string>
+    <string name="Peito">Peito</string>
+    <string name="Ombro">Ombro</string>
+    <string name="Costas">Costas</string>
+    <string name="Perna">Perna</string>
+    <string name="Abdominais">Abdominais</string>
+    <string name="Antebraço">Antebraço</string>
+    <string name="Gluteos">Glúteos</string>
+    <string name="Salvar">Salvar</string>
+    <string name="Voltar">Voltar</string>
+    <string name="Alunos">Alunos</string>
+    <string name="NomeOuCPF">Nome/Cpf</string>
+    <string name="Sexo">Sexo</string>
+    <string name="Aluno">Aluno</string>
+    <string name="Personal">Personal</string>
+    <string name="Exercicios">Exercícios</string>
+    <string name="Series">Séries</string>
+    <string name="Fechar">Fechar</string>
+    <string name="Proximo">Próximo</string>
+    <string name="Pular">Pular</string>
+    <string name="title_activity_login">Login</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="senha">Senha</string>
+    <string name="SALVAR">SALVAR</string>
+    <string name="Nome">Nome</string>
+    <string name="Finalizar">Finalizar</string>
+    <string name="Novo">Novo</string>
+    <string name="nome_do_treinamento">Nome do Treinamento</string>
+    <string name="nome_do_aluno">Nome do Aluno</string>
+    <string name="importarAluno">Importar Aluno</string>
+    <string name="importar">Importar</string>
+    <string name="duracao">Duração</string>
+    <string name="PorcCargas">%Cargas</string>
+    <string name="proximo_grupo">Próximo Grupo</string>
+    <string name="personais">Personais</string>
+    <string name="treino_base">Treino Base</string>
+
+    <!-- Mensagens do sistema-->
+    <string name="CPF_invalido">CPF inválido!</string>
+    <string name="Erro_Campo_Vazio">Erro! Campo Vazio!</string>
+    <string name="Deseja_excluir_o_aluno">Deseja Excluir o Aluno?</string>
+    <string name="Aluno_excluido_com_sucesso">Aluno excluído com sucesso!</string>
+    <string name="Ocorreu_um_erro_ao_excluir_o_Aluno">Ocorreu um erro ao excluir o Aluno!</string>
+    <string name="cpf_repetido">CPF repetido!</string>
+    <string name="confirmar_senha">Confirmar Senha</string>
+    <string name="erro_senha_confirmacao_senha">Erro! Campo senha e confirmação de senha são diferentes!</string>
+    <string name="lista_de_exercicios">Lista de Exercicios</string>
+    <string name="sumario_repeticoes">R: Repetições</string>
+    <string name="sumario_cargas">C: Cargas</string>
+    <string name="sumario_series">S: Séries</string>
+    <string name="titulo_programa_de_treinamento">Programa de Treinamento</string>
+    <string name="simples">Simples</string>
+    <string name="misto">Misto</string>
+    <string name="ok">OK</string>
+    <string name="Erro_nome_do_programa_vazio">Erro! Nome do Programa Vazio!</string>
+    <string name="Erro_programa">"Erro! Programa "</string>
+    <string name="nao_possui_exercicio">" não possui exercício!"</string>
+    <string name="deseja_excluir_o_programa_de_treinamento">Deseja excluir o Programa de Treinamento?</string>
+    <string name="Sim">Sim</string>
+    <string name="Nao">Não</string>
+    <string name="programa_de_treinamento_atualizado">Programa de Treinamento atualizado com suceso!</string>
+    <string name="programa_de_treinamento_salvo">Programa de Treinamento salvo com sucesso!</string>
+    <string name="Sair">Sair</string>
+    <string name="Confirmar">Confirmar</string>
+    <string name="Cancelar">Cancelar</string>
+    <string name="Treinos_da_semana">Treinos da Semana</string>
+    <string name="selecione_algum_musculo">Selecione algum musculo</string>
+    <string name="selecione_um_treino">Selecione um Treino</string>
+    <string name="erro_algum_campo_vazio">Erro, algum campo vazio</string>
+    <string name="nao_ha_musculos_cadastrados">Não há musculos cadastrados</string>
+    <string name="erro_nome_do_treino_nao_informado">ERRO - Nome do Treino não informado!</string>
+    <string name="aluno_importado_com_sucesso">Aluno importado com sucesso!!!</string>
+    <string name="configuracoes">Configurações</string>
+    <string name="erro_o_cpf_ja_foi_cadastrado_no_sistema">ERRO: O CPF já foi cadastrado no sistema!</string>
+    <string name="erro_existe_um_treino_base_com_o_mesmo_nome">Erro: Já existe um Treino Base com o mesmo nome! Escolha outro nome.</string>
+    <string name="iniciar">Iniciar</string>
+    <string name="Nenhum">Nenhum</string>
+    <string name="Carga">Carga</string>
+    <string name="Movimentos">Movimentos</string>
+    <string name="qtd">"QTD: "</string>
+    <string name="anotacoes">Anotações/Aeróbio/Funcional</string>
+    <string name="btn_anotacoes">Anotações</string>
+
+
+</resources>

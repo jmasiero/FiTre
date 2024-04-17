@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/laranja">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fragment_exercicio"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:text="@string/lista_de_exercicios"
+            android:textAppearance="?android:textAppearanceLarge"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_anotacoes"
+                android:id="@+id/btnAnotacoes"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/btn_azul_material"
+                android:textColor="@android:color/white"/>
+
+            <Spinner
+                android:id="@+id/spnVariacao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="120dp"
+                android:layout_marginRight="20dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:visibility="gone"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:id="@+id/listaExercicios"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fragment_exercicio"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:textColor="@color/azul_indigo"
+            android:text="@string/sumario_series"
+            android:textAppearance="?android:textAppearanceLarge"
+            />
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:text="@string/sumario_repeticoes"
+            android:textColor="@color/verde_hint"
+            android:textAppearance="?android:textAppearanceLarge"
+            />
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:text="@string/sumario_cargas"
+            android:textColor="@color/verde_hint"
+            android:textAppearance="?android:textAppearanceLarge"
+            />
+    </LinearLayout>
+</LinearLayout>

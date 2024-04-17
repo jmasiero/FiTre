@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/laranja">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/fragment_exercicio">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:textSize="@dimen/abc_action_bar_content_inset_material"
+                android:layout_gravity="center"
+                android:text="@string/personais"
+                android:textAppearance="?android:textAppearanceLarge"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:padding="20dp"
+                android:layout_margin="10dp"
+                android:hint="@string/nome"
+                android:textColorHint="@color/verde_hint"
+                android:id="@+id/edtNome"
+                android:textAppearance="?android:textAppearanceLarge"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnNovoPersonal"
+                android:text="@string/Novo"
+                android:layout_weight="1"
+                android:layout_marginRight="10dp"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:background="@drawable/btn_azul_material"
+                android:textColor="@android:color/white"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:id="@+id/listaTreinadores"/>
+
+</LinearLayout>

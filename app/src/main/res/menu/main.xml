@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Main"
+    >
+    <item android:id="@+id/action_iniciar_testes"
+        android:title="iniciarTeste"
+        android:icon="@drawable/content_paste"
+        app:showAsAction="always"
+        />
+    <item android:id="@+id/action_configuracoes"
+        android:title="configurações"
+        android:icon="@drawable/ic_settings"
+        app:showAsAction="always"
+        />
+    <item android:id="@+id/action_importar_aluno"
+        android:title="Importar Aluno"
+        android:icon="@drawable/ic_account_network"
+        app:showAsAction="always"
+        />
+</menu>

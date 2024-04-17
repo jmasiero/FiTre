@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/white"
+    tools:context=".Main$PlaceholderFragment">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/listCardTreino1"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:descendantFocusability="afterDescendants"
+        android:background="#1976D2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/listTeste" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/listCardTreino2"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:descendantFocusability="afterDescendants"
+        android:background="#E91E63"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/listCardTreino1" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/listTeste"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:descendantFocusability="afterDescendants"
+        android:background="@color/laranja"
+        android:visibility="gone"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/floatNovoAluno"
+        />
+
+    <ImageButton
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:id="@+id/floatNovoAluno"
+        android:background="@drawable/oval"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="65dp"
+        android:layout_marginRight="25dp"
+        />
+
+</RelativeLayout>

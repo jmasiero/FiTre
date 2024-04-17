@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/laranja">
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+
+        android:src="@drawable/logotipo_fitre_original_monocromatico2"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="5dp"
+        android:background="@drawable/fragment_exercicio">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Login"
+            android:textSize="30dp"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Academia"
+            android:layout_gravity="center_horizontal"
+            android:padding="20dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center">
+            <Spinner
+                android:id="@+id/spnAcademia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"/>
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/btnAtualizarAcademia"
+                android:layout_gravity="center"
+                android:visibility="visible"
+                android:drawable="@drawable/ic_refresh"
+                android:background="@drawable/btn_refresh"
+                />
+        </LinearLayout>
+
+        <EditText
+            android:layout_width="296dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtCPF"
+            android:hint="@string/cpf"
+            android:textColorHint="@color/verde_hint"
+            android:layout_gravity="center_horizontal"
+            android:inputType="number"
+            android:maxLength="14"
+            android:padding="20dp"/>
+
+        <EditText
+            android:layout_width="302dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/edtSenha"
+            android:hint="@string/senha"
+            android:textColorHint="@color/verde_hint"
+            android:maxLength="10"
+            android:layout_gravity="center_horizontal"
+            android:padding="20dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Entrar"
+            android:id="@+id/btnEntrar"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:padding="20dp"
+            android:onClick="validaLogin"
+            android:background="@drawable/btn_azul_material"
+            android:textColor="@android:color/white"
+            />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/txtVersaoSistema"
+            android:text=""/>
+</LinearLayout>

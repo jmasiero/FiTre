@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:gravity="center"
+    android:background="@color/laranja">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/fragment_exercicio">
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_gravity="left"
+            android:layout_marginBottom="10dp"
+            android:text="@string/Voltar"
+            android:drawableLeft="@drawable/arrow_left_bold"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/btnVoltar"
+            android:background="@drawable/btn_padrao"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_margin="10dp"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:visibility="gone"
+            android:layout_marginLeft="25dp"
+            android:id="@+id/txtNomeTreinoBase"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="20dp"
+            android:layout_margin="10dp"
+            android:hint="Nome do Treino"
+            android:inputType="textCapWords"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColorHint="@color/verde_hint"
+            android:visibility="gone"
+            android:id="@+id/edtNomeTreinoBase"
+            />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:gravity="center">
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:id="@+id/btnBiceps"
+                android:text="@string/Biceps"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_margin="10dp"
+                android:textSize="25dp"
+                android:background="@drawable/btn_exercicio"
+                />
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:text="@string/Triceps"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="25dp"
+                android:background="@drawable/btn_exercicio"
+                android:id="@+id/btnTriceps"/>
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:text="@string/Peito"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="25dp"
+                android:background="@drawable/btn_exercicio"
+                android:id="@+id/btnPeito"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:gravity="center">
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:text="@string/Ombro"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="25dp"
+                android:background="@drawable/btn_exercicio"
+                android:id="@+id/btnOmbro"/>
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:text="@string/Costas"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="25dp"
+                android:background="@drawable/btn_exercicio"
+                android:id="@+id/btnCostas"/>
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:text="@string/Perna"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="25dp"
+                android:background="@drawable/btn_exercicio"
+                android:id="@+id/btnPerna"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:gravity="center">
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:text="@string/Gluteos"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="25dp"
+                android:background="@drawable/btn_exercicio"
+                android:id="@+id/btnGluteos"/>
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:text="@string/Antebraço"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="25dp"
+                android:background="@drawable/btn_exercicio"
+                android:id="@+id/btnAntebraco"/>
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:text="@string/Abdominais"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="25dp"
+                android:background="@drawable/btn_exercicio"
+                android:id="@+id/btnAbdominais"/>
+        </LinearLayout>
+
+        <Button
+            android:layout_gravity="end"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:text="@string/Finalizar"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/btnFinalizar"
+            android:background="@drawable/btn_padrao"/>
+    </LinearLayout>
+</LinearLayout>

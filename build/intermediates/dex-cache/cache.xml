@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Volumes/HD2/Projetos/Android/Fitre/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Volumes/HD2/Projetos/Android/Fitre/app/build/intermediates/pre-dexed/release/internal_impl-23.0.1_c3a068f6a0d1c44433be2a92806e157e8b68545b.jar" />
+    </item>
+    <item
+        jar="/Volumes/HD2/Projetos/Android/Fitre/app/build/intermediates/exploded-aar/com.oguzdev/CircularFloatingActionMenu/1.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="607d961caf1a59b6e782724654c1f3229e036c20">
+        <dex dex="/Volumes/HD2/Projetos/Android/Fitre/app/build/intermediates/pre-dexed/release/com.oguzdev-CircularFloatingActionMenu-1.0.2_65240ba957a10229622f74ee6fe69d6eeb7b9788.jar" />
+    </item>
+    <item
+        jar="/Volumes/HD2/Projetos/Android/Fitre/app/build/intermediates/exploded-aar/com.android.support/design/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e5c61a3169221a89654ffcaaed47bba51cf071ad">
+        <dex dex="/Volumes/HD2/Projetos/Android/Fitre/app/build/intermediates/pre-dexed/release/com.android.support-design-23.0.1_40a8dbcb4215624004c0d15aed5c3af9daad52f3.jar" />
+    </item>
+    <item
+        jar="/Volumes/HD2/Projetos/Android/Fitre/app/build/intermediates/exploded-aar/com.mcxiaoke.volley/library/1.0.10/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3b6fbb47fb85eb66aad1f7231c0004d97f51123a">
+        <dex dex="/Volumes/HD2/Projetos/Android/Fitre/app/build/intermediates/pre-dexed/release/com.mcxiaoke.volley-library-1.0.10_c0967fc484c0237688a4194208800367b715677d.jar" />
+    </item>
+    <item
+        jar="/Volumes/HD2/Projetos/Android/Fitre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Volumes/HD2/Projetos/Android/Fitre/app/build/intermediates/pre-dexed/release/com.android.support-appcompat-v7-23.0.1_fb87459257a66186adbdc311a1828c5bad7034bb.jar" />
+    </item>
+    <item
+        jar="/Volumes/HD2/Projetos/Android/Fitre/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Volumes/HD2/Projetos/Android/Fitre/app/build/intermediates/pre-dexed/release/com.android.support-support-v4-23.0.1_7b7d8178f1f15c3385f9fa324b10e6e3b71b6a7f.jar" />
+    </item>
+    <item
+        jar="/Volumes/HD2/Projetos/Android/Fitre/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="39ae02ce40c3ac828abbf780ce0ff5d7a28b7d6a">
+        <dex dex="/Volumes/HD2/Projetos/Android/Fitre/app/build/intermediates/pre-dexed/release/com.android.support-cardview-v7-23.0.1_0531a1e2e07ea3c5bb23ff7dbd8ef141b2fb6e75.jar" />
+    </item>
+    <item
+        jar="/Users/jmasiero/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/Volumes/HD2/Projetos/Android/Fitre/app/build/intermediates/pre-dexed/release/support-annotations-23.0.1_dd77b1f78bb5fc7ae51fda274ecb11bc48f2729c.jar" />
+    </item>
+    <item
+        jar="/Volumes/HD2/Projetos/Android/Fitre/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
+        <dex dex="/Volumes/HD2/Projetos/Android/Fitre/app/build/intermediates/pre-dexed/release/com.android.support-recyclerview-v7-23.0.1_66b910ef7936a815523251712b1fcd59819e315b.jar" />
+    </item>
+
+</items>

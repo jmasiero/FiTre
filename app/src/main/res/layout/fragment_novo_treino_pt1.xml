@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/laranja">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/fragment_exercicio">
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="left"
+                    android:layout_marginBottom="10dp"
+                    android:text="@string/Voltar"
+                    android:drawableLeft="@drawable/arrow_left_bold"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:id="@+id/btnVoltar"
+                    android:background="@drawable/btn_padrao"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/tipo_de_treino"
+                    android:id="@+id/txtTipoTreino"
+                    android:layout_gravity="left"
+                    android:paddingTop="30dp"
+                    android:paddingRight="150dp"
+                    android:layout_marginLeft="25dp"
+                    android:visibility="gone"
+                    />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textCapSentences"
+                    android:ems="10"
+                    android:id="@+id/edtTipoTreino"
+                    android:layout_gravity="left"
+                    android:paddingBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:hint="@string/tipo_de_treino"
+                    android:textColorHint="@color/verde_hint"
+                    android:maxLength="100"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/peso_inicio"
+                    android:id="@+id/txtPesoInicio"
+                    android:layout_gravity="left"
+                    android:paddingTop="30dp"
+                    android:paddingRight="150dp"
+                    android:layout_marginLeft="25dp"
+                    android:visibility="gone"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"
+                    android:ems="10"
+                    android:id="@+id/edtPesoInicio"
+                    android:layout_gravity="left"
+                    android:maxLength="4"
+                    android:paddingBottom="20dp"
+                    android:hint="@string/peso_inicio"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColorHint="@color/verde_hint"
+                    android:layout_marginLeft="20dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/peso_ideal"
+                    android:id="@+id/txtPesoIdeal"
+                    android:layout_gravity="left"
+                    android:paddingTop="30dp"
+                    android:paddingRight="150dp"
+                    android:layout_marginLeft="25dp"
+                    android:visibility="gone"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"
+                    android:ems="10"
+                    android:id="@+id/edtPesoIdeal"
+                    android:layout_gravity="left"
+                    android:maxLength="4"
+                    android:paddingBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:hint="@string/peso_ideal"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColorHint="@color/verde_hint"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/objetivo"
+                    android:id="@+id/txtObjetivo"
+                    android:layout_gravity="left"
+                    android:paddingTop="30dp"
+                    android:paddingRight="150dp"
+                    android:layout_marginLeft="25dp"
+                    android:visibility="gone"
+                    />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:id="@+id/edtObjetivo"
+                    android:layout_gravity="left"
+                    android:paddingBottom="20dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:hint="@string/objetivo"
+                    android:textColorHint="@color/verde_hint"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:maxLength="100"
+                    />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:id="@+id/edtAnotacoes"
+                    android:layout_gravity="left"
+                    android:paddingBottom="20dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:hint="@string/anotacoes"
+                    android:textColorHint="@color/verde_hint"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:maxLength="200"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/Aluno"
+                    android:id="@+id/txtAluno"
+                    android:layout_gravity="center"
+                    android:paddingTop="30dp"
+                    />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:id="@+id/btnProcurarAluno"
+                    android:text="Procurar Aluno"
+                    android:background="@drawable/btn_padrao"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Vazio"
+                    android:id="@+id/txtNomeAluno"
+                    android:layout_gravity="center"
+                    android:paddingTop="30dp"
+                    android:layout_marginLeft="25dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/Personal"
+                    android:id="@+id/txtPersonal"
+                    android:layout_gravity="left"
+                    android:paddingTop="30dp"
+                    android:paddingRight="150dp"
+                    android:layout_marginLeft="25dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:id="@+id/txtNomePersonal"
+                    android:layout_gravity="left"
+                    android:paddingTop="30dp"
+                    android:paddingRight="150dp"
+                    android:layout_marginLeft="25dp"
+                    />
+
+                <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/data_inicio"
+                android:id="@+id/txtLblDataInicio"
+                android:layout_gravity="left"
+                android:paddingTop="30dp"
+                android:paddingRight="150dp"
+                    android:layout_marginLeft="25dp"
+                />
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text=""
+                    android:id="@+id/txtDataInicio"
+                    android:layout_gravity="left"
+                    android:paddingTop="30dp"
+                    android:paddingRight="150dp"
+                    android:layout_marginLeft="25dp"
+                    />
+
+                <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/duracao"
+                android:layout_gravity="center"
+                android:paddingTop="30dp"
+                android:paddingRight="150dp"
+                android:id="@+id/lblDataFim"
+                />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:id="@+id/txtDataFim"
+                    android:layout_gravity="center"
+                    android:paddingTop="30dp"
+                    android:paddingRight="150dp"
+                    android:visibility="gone"
+                    />
+
+                <Spinner
+                    android:id="@+id/spnDuracao"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginRight="120dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    />
+
+                <CheckBox
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Treino Progressivo"
+                    android:layout_gravity="center"
+                    android:id="@+id/chkTreinoProgressivo"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/title_treino_base"
+                    android:id="@+id/txtTreinoBase"
+                    android:layout_gravity="center"
+                    android:paddingTop="30dp"
+                    android:paddingRight="150dp"
+                    />
+
+                <Spinner
+                    android:id="@+id/spnTreinoBase"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginRight="120dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_gravity="right"
+                    android:id="@+id/btnProximaTela"
+                    android:text="@string/proximo"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:background="@drawable/btn_padrao"/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

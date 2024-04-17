@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="amarelo">#FFEB3B</color>
+    <color name="amarelo_alaranjado">#FBC02D</color>
+    <color name="azul_indigo">#536DFE</color>
+    <color name="laranja">#FF9800</color>
+    <color name="vermelho_fitre">#E74124</color>
+    <color name="azul_claro">#B3E5FC</color>
+    <color name="azul">#03A9F4</color>
+    <color name="verde_hint">#009688</color>
+    <color name="verde_limao">#CDDC39</color>
+    <color name="vermelho">#D32F2F</color>
+    <color name="amarelo_claro">#FFF9C4</color>
+
+</resources>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/cardview_light_background"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Teste Físico RMS"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textAppearance="?android:textAppearanceLarge"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/area1"
+        android:visibility="visible"
+        android:padding="30dp"
+        >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Peso Inicio"
+            android:maxLength="4"
+            android:inputType="numberDecimal"
+            android:id="@+id/edtPesoInicio"
+            android:textColorHint="@color/verde_hint"
+            android:textAppearance="?android:textAppearanceLarge"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Peso Ideal"
+            android:maxLength="4"
+            android:inputType="numberDecimal"
+            android:id="@+id/edtPesoIdeal"
+            android:textColorHint="@color/verde_hint"
+            android:textAppearance="?android:textAppearanceLarge"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Objetivo"
+            android:maxLength="100"
+            android:id="@+id/edtObjetivo"
+            android:textColorHint="@color/verde_hint"
+            android:textAppearance="?android:textAppearanceLarge"/>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_gravity="center"
+            android:id="@+id/spnDuracao"
+            >
+        </Spinner>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/chkTreinoProgressivo"
+            android:text="Treino Progressivo"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_marginBottom="40dp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnProximo"
+            android:text="@string/Proximo"
+            android:layout_gravity="right"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:background="@drawable/btn_azul_material"
+            android:textColor="@android:color/white"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/area2"
+        android:padding="30dp"
+        android:visibility="gone">
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_gravity="center"
+            android:id="@+id/spnRMS1"
+            >
+        </Spinner>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_gravity="center"
+            android:id="@+id/spnRMS2"
+            >
+        </Spinner>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_gravity="center"
+            android:id="@+id/spnRMS3"
+            >
+        </Spinner>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_gravity="center"
+            android:id="@+id/spnTreinoBase"
+            >
+        </Spinner>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_gravity="center"
+            android:id="@+id/spnTentativas"
+            >
+        </Spinner>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Repetições"
+            android:id="@+id/edtRepeticoes"
+            android:inputType="phone"
+            android:textColorHint="@color/verde_hint"
+            android:textAppearance="?android:textAppearanceLarge"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnIniciar"
+            android:text="@string/iniciar"
+            android:layout_gravity="right"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:background="@drawable/btn_azul_material"
+            android:textColor="@android:color/white"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

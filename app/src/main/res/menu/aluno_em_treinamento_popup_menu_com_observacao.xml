@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/item_observacao"
+        android:title="Observação"
+        android:visible="true"/>
+    <item
+        android:id="@+id/lista_exercicio"
+        android:title="Lista"
+        android:visible="true"/>
+    <item
+        android:id="@+id/item_exercicio"
+        android:title="Exercicio"
+        android:visible="true"/>
+    <item
+        android:id="@+id/item_frequencia"
+        android:title="Frequência"
+        android:visible="true"/>
+    <item
+        android:id="@+id/item_finalizar"
+        android:title="Finalizar"
+        android:visible="true"/>
+
+</menu>
